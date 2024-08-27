@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 2</title>
+    <title>Exercicio 13</title>
     <link href="bootstrap.min.css" rel="stylesheet"/>
 
 </head>
 <body>
 
-<p> <a href="exercicio1.php"> Exercicio 1 </a> </p>
-<p> <a href="exercicio3.php"> Exercicio 3 </a> </p>
-
+<p> <a href="exercicio12.php"> Exercicio 12 </a> </p>
+<p> <a href="exercicio14.php"> Exercicio 14 </a> </p>
 
 <br>
-<h1> Exercicio 2 - Idade</h1>
-
-<?php
-
-$anoNascimento = 2004;
-$anoAtual = 2024;
-$idade = $anoAtual - $anoNascimento;
-
-echo "Resultado = $idade";
+<h1> Exercicio 13 - Fatorial com for</h1>
 
 
+
+<?php 
+
+$fatorial = 5;
+$numero = $fatorial;
+
+
+for($i=$fatorial;$i>1;$i--) 
+{
+$numero--;
+$fatorial = $fatorial * $numero;
+
+}
+
+echo "Resultado = $fatorial <br>";
 
 
 

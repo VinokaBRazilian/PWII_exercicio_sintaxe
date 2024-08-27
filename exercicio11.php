@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 2</title>
+    <title>Exercicio 11</title>
     <link href="bootstrap.min.css" rel="stylesheet"/>
 
 </head>
 <body>
 
-<p> <a href="exercicio1.php"> Exercicio 1 </a> </p>
-<p> <a href="exercicio3.php"> Exercicio 3 </a> </p>
-
+<p> <a href="exercicio10.php"> Exercicio 10 </a> </p>
+<p> <a href="exercicio12.php"> Exercicio 12 </a> </p>
 
 <br>
-<h1> Exercicio 2 - Idade</h1>
-
-<?php
-
-$anoNascimento = 2004;
-$anoAtual = 2024;
-$idade = $anoAtual - $anoNascimento;
-
-echo "Resultado = $idade";
+<h1> Exercicio 11 - Soma de Números com while</h1>
 
 
 
+<?php 
+
+$numero = 1;
+
+$soma = 0;
+
+while($numero <= 100)
+{
+$soma = $soma + $numero; 
+echo "Resultado = $soma (num=$numero)<br>"; 
+$numero +=1;
 
 
+
+}
 ?>
 
 <script src="bootstrap.bundle.min.js"><script/>

@@ -20,7 +20,7 @@
 
 <?php 
 
-$nota = ;
+$nota = 70;
 
 if ($nota > 89)
 {
